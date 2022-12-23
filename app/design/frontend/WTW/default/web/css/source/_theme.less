@@ -1,0 +1,82 @@
+// /**
+//  * Copyright © Magento, Inc. All rights reserved.
+//  * See COPYING.txt for license details.
+//  */
+
+//
+//  Theme variables fallback
+//  _____________________________________________
+
+// Font Family
+@font-family__base:'Gotham-Light';
+@Gotham-black:'Gotham-Black';
+
+@copyright__background-color: @color-black;
+
+// Colors
+@color-pink:#ff0057;
+@color-blue1:#00a2ff;
+@color-orange:#ff8800;
+@color-green-light:#2fff00;
+@color-purple:#d200ff;
+
+// Layout 
+@layout__max-width:1170px;
+
+// Typography
+@h1__font-family: @Gotham-black;
+@h2__font-family: @h1__font-family;
+
+// Password strength meter
+@_password-default: @color-gray-light01;
+@_password-medium:@color-orange;
+@_password-strong: @color-green-light;
+@select__background: @form-element-input__background url('../images/select-bg.svg') no-repeat 100% 45%;
+@select__border: 1px solid @border-color__base;
+@select__height: 32px;
+@select__padding: 4px 25px @indent__xs @indent__s;
+
+// Button styling
+@button__font-family: @Gotham-black;
+.action.primary{text-transform: uppercase;}
+button:not(.primary):active, button:not(.primary){box-shadow:none;}
+@button__padding: 10px 20px; 
+@button__border-radius: 0;
+@button-primary__background: @color-pink;
+@button-primary__border: 1px solid @color-pink;
+@button-primary__hover__background:lighten(@color-pink, 10%);
+@button-primary__hover__border: 1px solid @button-primary__hover__background;
+
+@button__color: @color-black;
+@button__background: @color-white;
+@button__border: @button-primary__border;
+@button__hover__color: @button__background;
+@button__hover__background: @button-primary__background;
+@button__active__color: @button__hover__color;
+
+// Typo
+
+@link__color: @color-black;
+@link__text-decoration: none;
+@link__visited__text-decoration: underline;
+@link__hover__color: @link__color;
+@link__hover__text-decoration: none;
+@link__active__color: @link__hover__color;
+@link__active__text-decoration: none;
+
+// Form styling
+
+@form-element-input__padding: 2px 10px;
+@form-element-input__background: @color-white;
+@form-element-input__border-color: @color-gray76;
+@form-element-input__border: 1px solid @form-element-input__border-color;
+@form-element-input__border-radius: 0;
+@form-element-input__height: 32px;
+@form-element-input__width: 100%;
+
+@checkout-wrapper__columns: 8;
+
+// .media-width(@extremum, @break) when (@extremum = 'max') and (@break = @screen__s) {
+//     your styles
+// }
+
